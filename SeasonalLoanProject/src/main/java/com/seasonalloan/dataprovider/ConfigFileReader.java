@@ -37,13 +37,4 @@ public class ConfigFileReader {
 		return url;
 	}
 
-	public String getUsername() {
-		String username = prop.getProperty("username");
-		return username;
-	}
-
-	public String getPassword() {
-		String password = prop.getProperty("password");
-		return password;
-	}
 }

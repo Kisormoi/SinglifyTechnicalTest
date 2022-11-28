@@ -29,8 +29,6 @@ public class BaseClass {
 	public static Logger Logger;
 	public static String baseUrl = readconfig.getApplicationURL();
 	public String browser = readconfig.getBrowser();
-	public String username = readconfig.getUsername();
-	public String password = readconfig.getPassword();
 
 	@SuppressWarnings("deprecation")
 	@BeforeTest
