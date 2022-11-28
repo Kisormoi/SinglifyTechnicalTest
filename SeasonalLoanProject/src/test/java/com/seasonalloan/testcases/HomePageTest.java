@@ -28,6 +28,7 @@ public class HomePageTest extends BaseClass {
 
 	}
 
+	@Test
 //Verify when user enters invalid loan term the correct warning message pops_up
 	public void verifyInvalidLoanTerm() {
 
