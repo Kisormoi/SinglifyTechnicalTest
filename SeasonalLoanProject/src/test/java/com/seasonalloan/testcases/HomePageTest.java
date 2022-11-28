@@ -32,7 +32,7 @@ public class HomePageTest extends BaseClass {
 //Verify when user enters invalid loan term the correct warning message pops_up
 	public void verifyInvalidLoanTerm() {
 
-		lo.invalidLoanOfferEntry();// calls the validLoanOfferEntry method
+		lo.invalidLoanOfferEntry();// calls the invalidLoanOfferEntry method
 		String actualMessage = driver.findElement(By.id("LoanTerm error")).getText();
 		String expectedMessage = "Numarul de luni trebuie sa fie intre 1 si 60";
 		Assert.assertEquals(actualMessage, expectedMessage);
